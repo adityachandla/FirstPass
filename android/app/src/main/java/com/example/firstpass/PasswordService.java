@@ -20,7 +20,7 @@ class PasswordService {
 
     PasswordService(TextView passwordTextView) {
         this.requestQueue = Volley.newRequestQueue(MainActivity.getContext());
-        this.url = "https://secure-thicket-76162.herokuapp.com/getMyPass";
+        this.url = "add_your_url_here";
         this.passwordTextView = passwordTextView;
     }
 
